@@ -8,6 +8,7 @@ upgrade
 tap homebrew/versions
 tap phinze/homebrew-cask
 tap homebrew/binary
+tap homebrew/dupes
 
 # Packages
 
@@ -22,6 +23,9 @@ install nkf
 install openssl
 install readline
 install brew-cask
+install packer
+install grep
+install lv
 
 # .dmg
 cask install google-chrome
