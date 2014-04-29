@@ -24,8 +24,9 @@ install openssl
 install readline
 install brew-cask
 install packer
-install grep
+install homebrew/dupes/grep --default-names
 install lv
+install colordiff
 
 # .dmg
 cask install google-chrome
