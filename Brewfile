@@ -27,6 +27,7 @@ install packer
 install homebrew/dupes/grep --default-names
 install lv
 install colordiff
+install mplayer
 
 # .dmg
 cask install google-chrome
@@ -34,6 +35,8 @@ cask install emacs
 cask install dropbox
 cask install virtualbox
 cask install vagrant
+cask install inkscape
+cask install xquartz
 
 # Remove outdated versions
 cleanup
