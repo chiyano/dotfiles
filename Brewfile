@@ -6,12 +6,13 @@ upgrade
 
 # Add Repository
 tap homebrew/versions
-tap phinze/homebrew-cask
+tap phinze/cask
 tap homebrew/binary
 tap homebrew/dupes
 
 # Packages
 
+install pandoc
 install zsh
 install coreutils
 install wget
@@ -28,15 +29,21 @@ install homebrew/dupes/grep --default-names
 install lv
 install colordiff
 install mplayer
+install rbenv
+install ruby-build
 
-# .dmg
+# Packages from cask
+cask update
 cask install google-chrome
+cask install firefox
 cask install emacs
 cask install dropbox
 cask install virtualbox
 cask install vagrant
 cask install inkscape
 cask install xquartz
+cask install blender
 
 # Remove outdated versions
+cask cleanup
 cleanup
